@@ -1,0 +1,16 @@
+header {
+    //width: 1440px;
+    width: 100%;
+    height: 10rem;;
+    background: var(--gray-800);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem 0;
+    h1{
+        margin-left: 16px;
+        font-weight: 700;
+        font-size: 2.6rem;
+        line-height: 4.1rem;
+    }
+}
