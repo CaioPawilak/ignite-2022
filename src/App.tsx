@@ -2,6 +2,7 @@
 import { Feed } from './components/Feed'
 import { Header } from './components/Header'
 import { Sidebar } from './components/Sidebar'
+
 import styles from './styles/global.module.scss'
 
 export default function App() {
@@ -10,8 +11,8 @@ export default function App() {
       <Header />
       <div className={styles.contentWrapper}>
         <div className={styles.container}>
-          <Sidebar />
-          <Feed />
+            <Sidebar />
+            <Feed />
         </div>
         {
           /*
@@ -23,4 +24,3 @@ export default function App() {
   )
 }
 
-//export default App
